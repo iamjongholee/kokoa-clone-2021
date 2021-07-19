@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to K LEAGUE Membership</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>SKT</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>10:23</span>
+      </div>
+      <div class="status-bar__column">
+        <span>64%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to K LEAGUE Membership</h1>
+      <p class="welcome-header__text">
+        If you have a Membership Account, log in with your email or phone
+        number.
+      </p>
+    </header>
+
+    <form action="friends.html" method="get" id="login-form">
+      <input
+        name="membership"
+        type="text"
+        required
+        placeholder="1. Membership Number"
+      />
+      <input
+        name="username"
+        type="text"
+        required
+        placeholder="2. Email or phone number"
+      />
+      <input
+        name="password"
+        type="password"
+        required
+        placeholder="3. Password"
+      />
+      <input type="submit" value="Log in" />
+      <a href="#">Join the Membership?</a>
+      <a href="#">Find Your Membership Account or Password</a>
+    </form>
+
+    <div id="no-mobile">
+      <div><i class="fas fa-exclamation-triangle"></i></div>
+      <span>This service only supports the mobile version.</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
